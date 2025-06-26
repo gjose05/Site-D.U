@@ -14,7 +14,7 @@
   display: flex;
   gap: 20px;
   z-index: 100; /* Fica acima do carrossel */
-  background: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
+  background: rgba(255, 255, 255, 0.4); /* Fundo semi-transparente */
   padding: 10px 20px;
   border-radius: 30px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -31,7 +31,7 @@
   background: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #333;
+  color: #000000;
   border-radius: 20px;
 }
 

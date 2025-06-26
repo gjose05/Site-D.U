@@ -1,13 +1,13 @@
 .maps-button {
   /* Estilos básicos */
   z-index: 100;
-  background: linear-gradient(135deg, #113f25 0%, #2d7e50 50%, #113f25 100%);
-  color: white;
+  background: #e9dfd1;
+  color: rgb(0, 0, 0);
   border-radius: 30px;
   font-weight: 600;
   font-family: 'Montserrat';
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(26, 82, 29, 0.4);
+  box-shadow: 0 5px 15px rgba(29, 88, 31, 0.4);
   transition: all 0.3s ease;
   user-select: none;
   cursor: pointer;
@@ -22,13 +22,13 @@
     left: 60%;
     transform: translate(-50%, -50%);
     padding: 12px 28px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     white-space: nowrap;
   }
   
   .maps-button:hover {
     transform: translate(-50%, -50%) scale(1.1);
-    box-shadow: 0 8px 25px rgba(26, 80, 35, 0.8);
+    box-shadow: 0 8px 15px rgba(19, 54, 20, 0.4);
   }
 }
 
@@ -41,8 +41,8 @@
     
     width: 90%;
     max-width: 300px;
-    padding: 14px 20px;
-    font-size: 1rem;
+    padding: 5px 10px;
+    font-size: 0.8rem;
     min-height: 50px;
     margin: 0 auto; /* Centraliza o botão no container */
     display: block; /* Garante que o margin auto funcione */
@@ -53,7 +53,7 @@
 @media (max-width: 480px) {
   .maps-button {
     max-width: 100px;
-    padding: 15px 12px;
-    font-size: 1.4rem;
+    padding: 10px 15px;
+    font-size: 1.3rem;
   }
 }
