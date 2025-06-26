@@ -75,7 +75,5 @@
   .navbar-link {
     font-size: 0.9rem; /* Quase igual ao original */
     padding: 5px 0; /* Mantém padding original */
-    /* Garante que todos itens sejam visíveis */
-    flex-shrink: 0; /* Não deixa encolher demais */
   }
 }

@@ -54,8 +54,10 @@
   @media (max-width: 480px) {
   .maps-button {
     bottom: 300px;
-    padding: 12px 16px;
-    font-size: 1.4rem;
+    max-width: 100px;
+    padding: 15px 12px;
+    font-size: 0.9rem;
+    right:35%;
   }
 }
 }
