@@ -16,7 +16,7 @@
 /* Hover effect only for desktop */
 @media (hover: hover) {
   .masonry-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
     z-index: 2;
   }
 }

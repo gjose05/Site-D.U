@@ -1,6 +1,9 @@
 html, body {
-  max-width: 100vw;
-  background-color: #e9dfd1;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -53,10 +56,7 @@ html, body {
 .PaginaInicial_DU {
   position:relative;
   width: 100%;
-  background: linear-gradient(to bottom, 
-    #000000 0%,      
-    #e9dfd1 85%   
-  );
+  background: black;
   height: 100vh;
   z-index: 0;
 }
@@ -70,21 +70,19 @@ html, body {
 .content-wrapper {
   position: relative;
   z-index: 1; /* Camada acima do fundo */ 
-  background: #e9dfd1;
+  background: #000000;
 
 }
 
 .imagem-DU{
   position: relative;
   height: 100vh;  
-
 }
 
 
 .PedidosDU{
   position:relative;
   background: #e9dfd1;
-  height: 100vh; 
 }
 
 .textoPedidosDU{
@@ -98,7 +96,7 @@ html, body {
 }
 
 .site-footer {
-  background-color: #000; 
+  background-color: #000000; 
   color: white;
   padding: 24px 0; /* sem padding lateral */
   text-align: center;
@@ -114,7 +112,6 @@ html, body {
 
 .footer-content p {
   margin: 6px 0;
-
 }
 
 @media (max-width: 600px) {

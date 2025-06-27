@@ -3,8 +3,7 @@
   display: inline-block;
   padding: 0.8rem 1.8rem;
   border-radius: 300px;
-
-background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 1);
   color: rgba(0, 0, 0); 
   font-family: 'Montserrat';
   font-weight: 700;
@@ -18,7 +17,7 @@ background: rgba(255, 255, 255, 0.8);
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
   transition:
     font-size 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
     background-color 0.3s ease;

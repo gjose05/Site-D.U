@@ -1,10 +1,10 @@
 .instagram-button {
   /* Estilos básicos */
   z-index: 100;
-  background: #e9dfd1;
+  background: #ffffff;
   color: rgb(0, 0, 0);
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Montserrat';
   text-decoration: none;
   box-shadow: 0 5px 15px rgba(94, 21, 54, 0.4);
